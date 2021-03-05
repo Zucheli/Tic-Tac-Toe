@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/*---------------------------------------------Body---------------------------------------------*/
+body {
+  text-align: center;
+  background-size: cover;
+  background-color: #79c9fa;
+  background-repeat: no-repeat;
+  background-image: url("../assets/background1.jpg");
+}
+
+/*---------------------------------------------Content---------------------------------------------*/
+.title {
+  font-size: 50px;
+  color: #ebf2fa;
+  font-family: "Press Start 2P", cursive;
+}
+
+.stage {
+  height: 450px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template: auto / auto auto auto;
+}
+
+.players {
+  width: 350px;
+  color: #05668d;
+  padding: 20px 0px;
+  margin: 80px 50px;
+  border-radius: 20px;
+  background-color: #ebf2fa;
+  font-family: "Press Start 2P", cursive;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  color: #05668d;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #ebf2fa;
+}
+
+.buttons {
+  width: 350px;
+  padding: 20px 0px;
+  margin: 100px 50px;
+  border-radius: 20px;
+  background-color: #ebf2fa;
+  font-family: "Press Start 2P", cursive;
+}
+
+.buttons a {
+  color: #05668d;
+  text-decoration: none;
+}
+
+.buttons h2:hover {
+  text-decoration: underline;
+}
+
+/*---------------------------------------------Player1---------------------------------------------*/
+.o {
+  position: relative;
+}
+
+.o:after {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "o";
+  font-size: 50px;
+  line-height: 100px;
+  position: absolute;
+  font-family: "Press Start 2P", cursive;
+}
+
+/*---------------------------------------------Player2---------------------------------------------*/
+.x {
+  position: relative;
+}
+
+.x:after {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "x";
+  font-size: 50px;
+  line-height: 100px;
+  position: absolute;
+  font-family: "Press Start 2P", cursive;
+}
+
+/*---------------------------------------------Responsive---------------------------------------------*/
+@media screen and (max-width: 1300px) {
+  /*---------------------------------------------Body---------------------------------------------*/
+  body {
+    background-size: auto;
+  }
+
+  /*---------------------------------------------Content---------------------------------------------*/
+  .stage {
+    grid-template: auto auto auto/ auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /*---------------------------------------------Content---------------------------------------------*/
+  .title {
+    font-size: 30px;
+  }
+
+  .players {
+    width: 200px;
+    font-size: 10px;
+  }
+
+  .square {
+    width: 70px;
+    height: 70px;
+  }
+
+  .buttons {
+    width: 200px;
+    font-size: 10px;
+  }
+
+  /*---------------------------------------------Player1---------------------------------------------*/
+  .o:after {
+    font-size: 30px;
+    line-height: 70px;
+  }
+
+  /*---------------------------------------------Player2---------------------------------------------*/
+  .x:after {
+    font-size: 30px;
+    line-height: 70px;
+  }
+}

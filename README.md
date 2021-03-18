@@ -1,12 +1,11 @@
 # Tic-Tac-Toe
 
 ## Sobre o Projeto / About Project
+[Site](https://tictactoe-zucheli.netlify.app)
 
 Jogo da Velha realizado como um desafio do curso [Desenvolvimento Web Full Stack](https://programadorbr.com) do ProgBr.
 
 Tic Tac Toe held as a challenge of ProgBr's course [Full Stack Web Development](https://programadorbr.com). 
-
-[Site](https://tictactoe-zucheli.netlify.app)
 
 ## Layout
 ![Mobile 1](https://github.com/Zucheli/Tic-Tac-Toe/blob/main/assets/tictac1.png)

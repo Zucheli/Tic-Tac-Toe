@@ -4,7 +4,7 @@
 [Site](https://tictactoe-zucheli.netlify.app)
 
 ## About Project
-Tic-tac-toe game designed to practice HTML, CSS and JavaScript. Challenge given in the [Full Stack Web Development](https://programadorbr.com) course. 
+Tic-tac-toe game developed to practice HTML, CSS and JavaScript. Challenge given in the [Full Stack Web Development](https://programadorbr.com) course. 
 
 ## Layout 
 ![Mobile 1](https://github.com/Zucheli/Tic-Tac-Toe/blob/main/assets/tictac1.png)
